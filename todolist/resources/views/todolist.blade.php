@@ -34,7 +34,7 @@
                             </a>
 
                             @if ($todo->status) {{-- ($todo->status == true) --}}
-                                <del>{{ $todo->todo }}</del>                                
+                                <del>{{ $todo->todo }}</del> {{-- Mau test aja --}}                     
                             @else
                                 {{ $todo->todo }} 
                             @endif
